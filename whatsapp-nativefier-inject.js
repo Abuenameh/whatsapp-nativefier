@@ -85,7 +85,7 @@ const getMessages = () => {
                 }
             }
 
-            document.title = "(" + unreadCount.toString() + ") WhatsApp";
+            document.title = `(${unreadCount}) WhatsApp`;
         };
 
         query.addEventListener('error', (event) => {
